@@ -1,0 +1,6 @@
+36 error Error: Command failed with exit code 128: git tag v1.0.6 -m v1.0.6
+36 error fatal: tag 'v1.0.6' already exists
+36 error     at makeError (D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\execa@5.0.0\node_modules\execa\lib\error.js:59:11)
+36 error     at handlePromise (D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\execa@5.0.0\node_modules\execa\index.js:114:26)
+36 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+36 error     at async Promise.all (index 0)
