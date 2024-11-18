@@ -7,12 +7,12 @@
 1 notice cli v6.6.2
 2 verbose rootPath D:\resume-git-repo\encode-and-cli
 3 verbose packageConfigs Package manager 'pnpm' detected. Resolving packages using 'pnpm-workspace.yaml'.
-4 verbose session 17a01eb56141ac2e
+4 verbose session 6b1181b8ee89c65d
 5 verbose user-agent lerna/6.6.2/node@v20.10.0+x64 (win32)
 6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '6.6.2' }
 7 verbose rootPath D:\resume-git-repo\encode-and-cli
 8 verbose packageConfigs Package manager 'pnpm' detected. Resolving packages using 'pnpm-workspace.yaml'.
-9 info current version 1.0.13
+9 info current version 1.0.15
 10 silly isAnythingCommitted
 11 verbose isAnythingCommitted 1
 12 silly getCurrentBranch
@@ -22,73 +22,110 @@
 16 silly isBehindUpstream sit is behind origin/sit by 0 commit(s) and ahead by 0
 17 silly hasTags
 18 verbose hasTags true
-19 silly git-describe.sync "v1.0.9-7-g70fff0f" => {"lastTagName":"v1.0.9","lastVersion":"v1.0.9","refCount":"7","sha":"70fff0f","isDirty":false}
-20 info Looking for changed packages since v1.0.9
-21 silly checking diff packages/markdownlint-config
-22 silly found diff in packages/markdownlint-config/package.json
-23 verbose filtered diff [ 'packages/markdownlint-config/package.json' ]
-24 verbose updated durant-markdownlint-config
-25 verbose git-describe undefined => "v1.0.9-7-g70fff0f"
-26 silly git-describe parsed => {"lastTagName":"v1.0.9","lastVersion":"v1.0.9","refCount":"7","sha":"70fff0f","isDirty":false}
-27 info execute Skipping releases
-28 silly lifecycle No script for "preversion" in "encode-and-cli", continuing
-29 silly lifecycle No script for "preversion" in "durant-markdownlint-config", continuing
-30 verbose version durant-markdownlint-config has no lockfile. Skipping lockfile update.
-31 silly lifecycle No script for "version" in "durant-markdownlint-config", continuing
-32 silly lifecycle No script for "version" in "encode-and-cli", continuing
-33 silly gitAdd [ 'packages/markdownlint-config/package.json', 'lerna.json' ]
-34 silly gitCommit chore(release): publish v1.0.14
-35 verbose git [ 'commit', '-m', 'chore(release): publish v1.0.14' ]
-36 silly gitTag v1.0.14 git tag %s -m %s
-37 verbose git [ 'tag', 'v1.0.14', '-m', 'v1.0.14' ]
-38 silly lifecycle No script for "postversion" in "durant-markdownlint-config", continuing
-39 silly lifecycle No script for "postversion" in "encode-and-cli", continuing
-40 info git Pushing tags...
-41 silly gitPush origin sit
-42 info publish Publishing packages to npm...
-43 notice Skipping all user and access validation due to third-party registry
-44 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
-45 silly getCurrentSHA
-46 verbose getCurrentSHA 129aec9d7ef95d1c58b781dc154cc599a4bc8e7d
-47 warn lifecycle Skipping root "prepublish" because it has already been called
-48 silly lifecycle "prepare" starting in "encode-and-cli"
-49 info lifecycle encode-and-cli@undefined~prepare: encode-and-cli@undefined
-50 silly lifecycle "prepare" finished in "encode-and-cli"
-51 silly lifecycle No script for "prepublishOnly" in "encode-and-cli", continuing
-52 silly lifecycle No script for "prepack" in "encode-and-cli", continuing
-53 verbose pack-directory packages\markdownlint-config
-54 silly lifecycle No script for "prepublish" in "durant-markdownlint-config", continuing
-55 silly lifecycle No script for "prepare" in "durant-markdownlint-config", continuing
-56 silly lifecycle No script for "prepublishOnly" in "durant-markdownlint-config", continuing
-57 silly lifecycle No script for "prepack" in "durant-markdownlint-config", continuing
-58 silly lifecycle No script for "postpack" in "durant-markdownlint-config", continuing
-59 verbose packed packages\markdownlint-config
-60 silly lifecycle No script for "postpack" in "encode-and-cli", continuing
-61 verbose publish durant-markdownlint-config
-62 silly FetchError: request to https://registry.npmjs.org/durant-markdownlint-config failed, reason: read ECONNRESET
-62 silly     at ClientRequest.<anonymous> (D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
-62 silly     at ClientRequest.emit (node:events:514:28)
-62 silly     at TLSSocket.socketErrorListener (node:_http_client:495:9)
-62 silly     at TLSSocket.emit (node:events:526:35)
-62 silly     at emitErrorNT (node:internal/streams/destroy:151:8)
-62 silly     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
-62 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-62 silly  FetchError: request to https://registry.npmjs.org/durant-markdownlint-config failed, reason: read ECONNRESET
-62 silly     at ClientRequest.<anonymous> (D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
-62 silly     at ClientRequest.emit (node:events:514:28)
-62 silly     at TLSSocket.socketErrorListener (node:_http_client:495:9)
-62 silly     at TLSSocket.emit (node:events:526:35)
-62 silly     at emitErrorNT (node:internal/streams/destroy:151:8)
-62 silly     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
-62 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
-62 silly   code: 'ECONNRESET',
-62 silly   errno: 'ECONNRESET',
-62 silly   syscall: 'read',
-62 silly   type: 'system'
-62 silly }
-63 error ECONNRESET request to https://registry.npmjs.org/durant-markdownlint-config failed, reason: read ECONNRESET
-64 error TypeError [ERR_INVALID_ARG_TYPE]: The "code" argument must be of type number. Received type string ('ECONNRESET')
-64 error     at process.set [as exitCode] (node:internal/bootstrap/node:123:9)
-64 error     at D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\lerna@6.6.2\node_modules\lerna\dist\cli.js:7944:34
-64 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-64 error     at async D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\p-pipe@3.1.0\node_modules\p-pipe\index.js:12:19
+19 silly git-describe.sync "v1.0.14-1-gf104ce2" => {"lastTagName":"v1.0.14","lastVersion":"v1.0.14","refCount":"1","sha":"f104ce2","isDirty":false}
+20 info Looking for changed packages since v1.0.14
+21 silly checking diff packages/commitlint-config
+22 silly found diff in packages/commitlint-config/README.md
+22 silly found diff in packages/commitlint-config/index.js
+22 silly found diff in packages/commitlint-config/package.json
+23 verbose filtered diff [
+23 verbose filtered diff   'packages/commitlint-config/README.md',
+23 verbose filtered diff   'packages/commitlint-config/index.js',
+23 verbose filtered diff   'packages/commitlint-config/package.json'
+23 verbose filtered diff ]
+24 silly checking diff packages/markdownlint-config
+25 silly found diff in packages/markdownlint-config/package.json
+26 verbose filtered diff [ 'packages/markdownlint-config/package.json' ]
+27 verbose updated durant-commitlint-config
+28 verbose updated durant-markdownlint-config
+29 verbose git-describe undefined => "v1.0.14-1-gf104ce2"
+30 silly git-describe parsed => {"lastTagName":"v1.0.14","lastVersion":"v1.0.14","refCount":"1","sha":"f104ce2","isDirty":false}
+31 info execute Skipping releases
+32 silly lifecycle No script for "preversion" in "encode-and-cli", continuing
+33 silly lifecycle No script for "preversion" in "durant-commitlint-config", continuing
+34 silly lifecycle No script for "preversion" in "durant-markdownlint-config", continuing
+35 verbose version durant-commitlint-config has no lockfile. Skipping lockfile update.
+36 verbose version durant-markdownlint-config has no lockfile. Skipping lockfile update.
+37 silly lifecycle No script for "version" in "durant-commitlint-config", continuing
+38 silly lifecycle No script for "version" in "durant-markdownlint-config", continuing
+39 silly lifecycle No script for "version" in "encode-and-cli", continuing
+40 silly gitAdd [
+40 silly gitAdd   'packages/commitlint-config/package.json',
+40 silly gitAdd   'packages/markdownlint-config/package.json',
+40 silly gitAdd   'lerna.json'
+40 silly gitAdd ]
+41 silly gitCommit chore(release): publish v1.0.16
+42 verbose git [ 'commit', '-m', 'chore(release): publish v1.0.16' ]
+43 silly gitTag v1.0.16 git tag %s -m %s
+44 verbose git [ 'tag', 'v1.0.16', '-m', 'v1.0.16' ]
+45 silly lifecycle No script for "postversion" in "durant-commitlint-config", continuing
+46 silly lifecycle No script for "postversion" in "durant-markdownlint-config", continuing
+47 silly lifecycle No script for "postversion" in "encode-and-cli", continuing
+48 info git Pushing tags...
+49 silly gitPush origin sit
+50 info publish Publishing packages to npm...
+51 notice Skipping all user and access validation due to third-party registry
+52 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
+53 silly getCurrentSHA
+54 verbose getCurrentSHA 6a92b300f98228c65acde27893d06635b94f1b65
+55 warn lifecycle Skipping root "prepublish" because it has already been called
+56 silly lifecycle "prepare" starting in "encode-and-cli"
+57 info lifecycle encode-and-cli@undefined~prepare: encode-and-cli@undefined
+58 silly lifecycle "prepare" finished in "encode-and-cli"
+59 silly lifecycle No script for "prepublishOnly" in "encode-and-cli", continuing
+60 silly lifecycle No script for "prepack" in "encode-and-cli", continuing
+61 verbose pack-directory packages\commitlint-config
+62 verbose pack-directory packages\markdownlint-config
+63 silly lifecycle No script for "prepublish" in "durant-commitlint-config", continuing
+64 silly lifecycle No script for "prepublish" in "durant-markdownlint-config", continuing
+65 silly lifecycle No script for "prepare" in "durant-commitlint-config", continuing
+66 silly lifecycle No script for "prepare" in "durant-markdownlint-config", continuing
+67 silly lifecycle No script for "prepublishOnly" in "durant-commitlint-config", continuing
+68 silly lifecycle No script for "prepublishOnly" in "durant-markdownlint-config", continuing
+69 silly lifecycle No script for "prepack" in "durant-commitlint-config", continuing
+70 silly lifecycle No script for "prepack" in "durant-markdownlint-config", continuing
+71 silly lifecycle No script for "postpack" in "durant-commitlint-config", continuing
+72 verbose packed packages\commitlint-config
+73 silly lifecycle No script for "postpack" in "durant-markdownlint-config", continuing
+74 verbose packed packages\markdownlint-config
+75 silly lifecycle No script for "postpack" in "encode-and-cli", continuing
+76 verbose publish durant-commitlint-config
+77 verbose publish durant-markdownlint-config
+78 silly lifecycle No script for "publish" in "durant-commitlint-config", continuing
+79 silly lifecycle No script for "postpublish" in "durant-commitlint-config", continuing
+80 success published durant-commitlint-config 1.0.16
+81 notice
+82 notice package: durant-commitlint-config@1.0.16
+83 notice === Tarball Contents ===
+84 notice 1.1kB LICENSE
+84 notice 678B  index.js
+84 notice 629B  package.json
+84 notice 0B    README.md
+85 notice === Tarball Details ===
+86 notice name:          durant-commitlint-config
+86 notice version:       1.0.16
+86 notice filename:      durant-commitlint-config-1.0.16.tgz
+86 notice package size:  1.4 kB
+86 notice unpacked size: 2.4 kB
+86 notice shasum:        c9c261530a48d60e21035e9100f6710230e95f77
+86 notice integrity:     sha512-uj4voGSLp1J+F[...]vYwZ6fRzFwH7A==
+86 notice total files:   4
+87 notice
+88 silly FetchError: network timeout at: https://registry.npmjs.org/durant-markdownlint-config
+88 silly     at Timeout.<anonymous> (D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:108:18)
+88 silly     at listOnTimeout (node:internal/timers:573:17)
+88 silly     at process.processTimers (node:internal/timers:514:7)
+88 silly  FetchError: network timeout at: https://registry.npmjs.org/durant-markdownlint-config
+88 silly     at Timeout.<anonymous> (D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:108:18)
+88 silly     at listOnTimeout (node:internal/timers:573:17)
+88 silly     at process.processTimers (node:internal/timers:514:7) {
+88 silly   code: 'FETCH_ERROR',
+88 silly   errno: 'FETCH_ERROR',
+88 silly   type: 'request-timeout'
+88 silly }
+89 error FETCH_ERROR network timeout at: https://registry.npmjs.org/durant-markdownlint-config
+90 error TypeError [ERR_INVALID_ARG_TYPE]: The "code" argument must be of type number. Received type string ('FETCH_ERROR')
+90 error     at process.set [as exitCode] (node:internal/bootstrap/node:123:9)
+90 error     at D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\lerna@6.6.2\node_modules\lerna\dist\cli.js:7944:34
+90 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+90 error     at async D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\p-pipe@3.1.0\node_modules\p-pipe\index.js:12:19
