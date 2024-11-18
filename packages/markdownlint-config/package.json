@@ -1,5 +1,5 @@
 {
-  "name": "durant123-markdownlint-config",
+  "name": "durant-markdownlint-config",
   "version": "1.0.9",
   "description": "durant123的markdownlint",
   "author": "尘少 <1982740368@qq.com>",
@@ -21,5 +21,6 @@
   },
   "peerDependencies": {
     "markdownlint": "0.28.1"
-  }
+  },
+  "gitHead": "edd80edee5f984adeab0a643d03aa12091910e50"
 }

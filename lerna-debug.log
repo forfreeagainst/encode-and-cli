@@ -1,6 +1,91 @@
-36 error Error: Command failed with exit code 128: git tag v1.0.6 -m v1.0.6
-36 error fatal: tag 'v1.0.6' already exists
-36 error     at makeError (D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\execa@5.0.0\node_modules\execa\lib\error.js:59:11)
-36 error     at handlePromise (D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\execa@5.0.0\node_modules\execa\index.js:114:26)
-36 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-36 error     at async Promise.all (index 0)
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '6.6.2',
+0 silly argv   '$0': 'node_modules\\lerna\\dist\\cli.js'
+0 silly argv }
+1 notice cli v6.6.2
+2 verbose rootPath D:\resume-git-repo\encode-and-cli
+3 verbose packageConfigs Package manager 'pnpm' detected. Resolving packages using 'pnpm-workspace.yaml'.
+4 verbose session 926e4dee7a5c2c5e
+5 verbose user-agent lerna/6.6.2/node@v20.10.0+x64 (win32)
+6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '6.6.2' }
+7 verbose rootPath D:\resume-git-repo\encode-and-cli
+8 verbose packageConfigs Package manager 'pnpm' detected. Resolving packages using 'pnpm-workspace.yaml'.
+9 info current version 1.0.8
+10 silly isAnythingCommitted
+11 verbose isAnythingCommitted 1
+12 silly getCurrentBranch
+13 verbose currentBranch sit
+14 silly remoteBranchExists
+15 silly isBehindUpstream
+16 silly isBehindUpstream sit is behind origin/sit by 0 commit(s) and ahead by 0
+17 silly hasTags
+18 verbose hasTags true
+19 silly git-describe.sync "83da52b" => {"refCount":"5","sha":"83da52b","isDirty":false}
+20 info Assuming all packages changed
+21 verbose updated durant123-markdownlint-config
+22 verbose git-describe undefined => "83da52b"
+23 silly git-describe parsed => {"refCount":"5","sha":"83da52b","isDirty":false}
+24 info execute Skipping releases
+25 silly lifecycle No script for "preversion" in "encode-and-cli", continuing
+26 silly lifecycle No script for "preversion" in "durant123-markdownlint-config", continuing
+27 verbose version durant123-markdownlint-config has no lockfile. Skipping lockfile update.
+28 silly lifecycle No script for "version" in "durant123-markdownlint-config", continuing
+29 silly lifecycle No script for "version" in "encode-and-cli", continuing
+30 silly gitAdd [ 'packages/markdownlint-config/package.json', 'lerna.json' ]
+31 silly gitCommit chore(release): publish v1.0.9
+32 verbose git [ 'commit', '-m', 'chore(release): publish v1.0.9' ]
+33 silly gitTag v1.0.9 git tag %s -m %s
+34 verbose git [ 'tag', 'v1.0.9', '-m', 'v1.0.9' ]
+35 silly lifecycle No script for "postversion" in "durant123-markdownlint-config", continuing
+36 silly lifecycle No script for "postversion" in "encode-and-cli", continuing
+37 info git Pushing tags...
+38 silly gitPush origin sit
+39 info publish Publishing packages to npm...
+40 notice Skipping all user and access validation due to third-party registry
+41 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
+42 silly getCurrentSHA
+43 verbose getCurrentSHA edd80edee5f984adeab0a643d03aa12091910e50
+44 warn lifecycle Skipping root "prepublish" because it has already been called
+45 silly lifecycle "prepare" starting in "encode-and-cli"
+46 info lifecycle encode-and-cli@undefined~prepare: encode-and-cli@undefined
+47 silly lifecycle "prepare" finished in "encode-and-cli"
+48 silly lifecycle No script for "prepublishOnly" in "encode-and-cli", continuing
+49 silly lifecycle No script for "prepack" in "encode-and-cli", continuing
+50 verbose pack-directory packages\markdownlint-config
+51 silly lifecycle No script for "prepublish" in "durant123-markdownlint-config", continuing
+52 silly lifecycle No script for "prepare" in "durant123-markdownlint-config", continuing
+53 silly lifecycle No script for "prepublishOnly" in "durant123-markdownlint-config", continuing
+54 silly lifecycle No script for "prepack" in "durant123-markdownlint-config", continuing
+55 silly lifecycle No script for "postpack" in "durant123-markdownlint-config", continuing
+56 verbose packed packages\markdownlint-config
+57 silly lifecycle No script for "postpack" in "encode-and-cli", continuing
+58 verbose publish durant123-markdownlint-config
+59 silly FetchError: request to https://registry.npmjs.org/durant123-markdownlint-config failed, reason: read ECONNRESET
+59 silly     at ClientRequest.<anonymous> (D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
+59 silly     at ClientRequest.emit (node:events:514:28)
+59 silly     at TLSSocket.socketErrorListener (node:_http_client:495:9)
+59 silly     at TLSSocket.emit (node:events:526:35)
+59 silly     at emitErrorNT (node:internal/streams/destroy:151:8)
+59 silly     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+59 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+59 silly  FetchError: request to https://registry.npmjs.org/durant123-markdownlint-config failed, reason: read ECONNRESET
+59 silly     at ClientRequest.<anonymous> (D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
+59 silly     at ClientRequest.emit (node:events:514:28)
+59 silly     at TLSSocket.socketErrorListener (node:_http_client:495:9)
+59 silly     at TLSSocket.emit (node:events:526:35)
+59 silly     at emitErrorNT (node:internal/streams/destroy:151:8)
+59 silly     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+59 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+59 silly   code: 'ECONNRESET',
+59 silly   errno: 'ECONNRESET',
+59 silly   syscall: 'read',
+59 silly   type: 'system'
+59 silly }
+60 error ECONNRESET request to https://registry.npmjs.org/durant123-markdownlint-config failed, reason: read ECONNRESET
+61 error TypeError [ERR_INVALID_ARG_TYPE]: The "code" argument must be of type number. Received type string ('ECONNRESET')
+61 error     at process.set [as exitCode] (node:internal/bootstrap/node:123:9)
+61 error     at D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\lerna@6.6.2\node_modules\lerna\dist\cli.js:7944:34
+61 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+61 error     at async D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\p-pipe@3.1.0\node_modules\p-pipe\index.js:12:19
