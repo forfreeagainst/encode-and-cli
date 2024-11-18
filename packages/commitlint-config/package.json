@@ -1,0 +1,24 @@
+{
+  "name": "durant-commitlint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Git规范",
+  "keywords": [
+    "encode",
+    "commit",
+    "lint"
+  ],
+  "author": "durant",
+  "homepage": "https://github.com/forfreeagainst/encode-and-cli#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forfreeagainst/encode-and-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/forfreeagainst/encode-and-cli/issues"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "4.5.0"
+  }
+}

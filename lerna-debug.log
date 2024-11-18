@@ -1,6 +1,94 @@
-39 error Error: Command failed with exit code 128: git tag v1.0.12 -m v1.0.12
-39 error fatal: tag 'v1.0.12' already exists
-39 error     at makeError (D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\execa@5.0.0\node_modules\execa\lib\error.js:59:11)
-39 error     at handlePromise (D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\execa@5.0.0\node_modules\execa\index.js:114:26)
-39 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-39 error     at async Promise.all (index 0)
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '6.6.2',
+0 silly argv   '$0': 'node_modules\\lerna\\dist\\cli.js'
+0 silly argv }
+1 notice cli v6.6.2
+2 verbose rootPath D:\resume-git-repo\encode-and-cli
+3 verbose packageConfigs Package manager 'pnpm' detected. Resolving packages using 'pnpm-workspace.yaml'.
+4 verbose session 17a01eb56141ac2e
+5 verbose user-agent lerna/6.6.2/node@v20.10.0+x64 (win32)
+6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '6.6.2' }
+7 verbose rootPath D:\resume-git-repo\encode-and-cli
+8 verbose packageConfigs Package manager 'pnpm' detected. Resolving packages using 'pnpm-workspace.yaml'.
+9 info current version 1.0.13
+10 silly isAnythingCommitted
+11 verbose isAnythingCommitted 1
+12 silly getCurrentBranch
+13 verbose currentBranch sit
+14 silly remoteBranchExists
+15 silly isBehindUpstream
+16 silly isBehindUpstream sit is behind origin/sit by 0 commit(s) and ahead by 0
+17 silly hasTags
+18 verbose hasTags true
+19 silly git-describe.sync "v1.0.9-7-g70fff0f" => {"lastTagName":"v1.0.9","lastVersion":"v1.0.9","refCount":"7","sha":"70fff0f","isDirty":false}
+20 info Looking for changed packages since v1.0.9
+21 silly checking diff packages/markdownlint-config
+22 silly found diff in packages/markdownlint-config/package.json
+23 verbose filtered diff [ 'packages/markdownlint-config/package.json' ]
+24 verbose updated durant-markdownlint-config
+25 verbose git-describe undefined => "v1.0.9-7-g70fff0f"
+26 silly git-describe parsed => {"lastTagName":"v1.0.9","lastVersion":"v1.0.9","refCount":"7","sha":"70fff0f","isDirty":false}
+27 info execute Skipping releases
+28 silly lifecycle No script for "preversion" in "encode-and-cli", continuing
+29 silly lifecycle No script for "preversion" in "durant-markdownlint-config", continuing
+30 verbose version durant-markdownlint-config has no lockfile. Skipping lockfile update.
+31 silly lifecycle No script for "version" in "durant-markdownlint-config", continuing
+32 silly lifecycle No script for "version" in "encode-and-cli", continuing
+33 silly gitAdd [ 'packages/markdownlint-config/package.json', 'lerna.json' ]
+34 silly gitCommit chore(release): publish v1.0.14
+35 verbose git [ 'commit', '-m', 'chore(release): publish v1.0.14' ]
+36 silly gitTag v1.0.14 git tag %s -m %s
+37 verbose git [ 'tag', 'v1.0.14', '-m', 'v1.0.14' ]
+38 silly lifecycle No script for "postversion" in "durant-markdownlint-config", continuing
+39 silly lifecycle No script for "postversion" in "encode-and-cli", continuing
+40 info git Pushing tags...
+41 silly gitPush origin sit
+42 info publish Publishing packages to npm...
+43 notice Skipping all user and access validation due to third-party registry
+44 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
+45 silly getCurrentSHA
+46 verbose getCurrentSHA 129aec9d7ef95d1c58b781dc154cc599a4bc8e7d
+47 warn lifecycle Skipping root "prepublish" because it has already been called
+48 silly lifecycle "prepare" starting in "encode-and-cli"
+49 info lifecycle encode-and-cli@undefined~prepare: encode-and-cli@undefined
+50 silly lifecycle "prepare" finished in "encode-and-cli"
+51 silly lifecycle No script for "prepublishOnly" in "encode-and-cli", continuing
+52 silly lifecycle No script for "prepack" in "encode-and-cli", continuing
+53 verbose pack-directory packages\markdownlint-config
+54 silly lifecycle No script for "prepublish" in "durant-markdownlint-config", continuing
+55 silly lifecycle No script for "prepare" in "durant-markdownlint-config", continuing
+56 silly lifecycle No script for "prepublishOnly" in "durant-markdownlint-config", continuing
+57 silly lifecycle No script for "prepack" in "durant-markdownlint-config", continuing
+58 silly lifecycle No script for "postpack" in "durant-markdownlint-config", continuing
+59 verbose packed packages\markdownlint-config
+60 silly lifecycle No script for "postpack" in "encode-and-cli", continuing
+61 verbose publish durant-markdownlint-config
+62 silly FetchError: request to https://registry.npmjs.org/durant-markdownlint-config failed, reason: read ECONNRESET
+62 silly     at ClientRequest.<anonymous> (D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
+62 silly     at ClientRequest.emit (node:events:514:28)
+62 silly     at TLSSocket.socketErrorListener (node:_http_client:495:9)
+62 silly     at TLSSocket.emit (node:events:526:35)
+62 silly     at emitErrorNT (node:internal/streams/destroy:151:8)
+62 silly     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+62 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+62 silly  FetchError: request to https://registry.npmjs.org/durant-markdownlint-config failed, reason: read ECONNRESET
+62 silly     at ClientRequest.<anonymous> (D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
+62 silly     at ClientRequest.emit (node:events:514:28)
+62 silly     at TLSSocket.socketErrorListener (node:_http_client:495:9)
+62 silly     at TLSSocket.emit (node:events:526:35)
+62 silly     at emitErrorNT (node:internal/streams/destroy:151:8)
+62 silly     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+62 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+62 silly   code: 'ECONNRESET',
+62 silly   errno: 'ECONNRESET',
+62 silly   syscall: 'read',
+62 silly   type: 'system'
+62 silly }
+63 error ECONNRESET request to https://registry.npmjs.org/durant-markdownlint-config failed, reason: read ECONNRESET
+64 error TypeError [ERR_INVALID_ARG_TYPE]: The "code" argument must be of type number. Received type string ('ECONNRESET')
+64 error     at process.set [as exitCode] (node:internal/bootstrap/node:123:9)
+64 error     at D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\lerna@6.6.2\node_modules\lerna\dist\cli.js:7944:34
+64 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+64 error     at async D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\p-pipe@3.1.0\node_modules\p-pipe\index.js:12:19
