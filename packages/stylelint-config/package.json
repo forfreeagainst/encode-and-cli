@@ -1,6 +1,6 @@
 {
   "name": "durant-stylelint-config",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "CSS规范",
   "main": "index.js",
   "keywords": [
