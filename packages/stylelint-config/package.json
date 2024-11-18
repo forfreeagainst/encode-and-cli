@@ -1,6 +1,6 @@
 {
   "name": "durant-stylelint-config",
-  "version": "1.0.0",
+  "version": "1.0.17",
   "description": "CSS规范",
   "main": "index.js",
   "keywords": [
@@ -8,8 +8,7 @@
     "style",
     "lint"
   ],
-  "scripts": {
-  },
+  "scripts": {},
   "author": "durant",
   "homepage": "https://github.com/forfreeagainst/encode-and-cli#readme",
   "license": "ISC",

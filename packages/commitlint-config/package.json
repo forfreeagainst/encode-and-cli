@@ -1,6 +1,6 @@
 {
   "name": "durant-commitlint-config",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "main": "index.js",
   "description": "Git规范",
   "keywords": [
