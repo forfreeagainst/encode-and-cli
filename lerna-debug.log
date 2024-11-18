@@ -1,5 +1,5 @@
-39 error Error: Command failed with exit code 128: git tag v1.0.11 -m v1.0.11
-39 error fatal: tag 'v1.0.11' already exists
+39 error Error: Command failed with exit code 128: git tag v1.0.12 -m v1.0.12
+39 error fatal: tag 'v1.0.12' already exists
 39 error     at makeError (D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\execa@5.0.0\node_modules\execa\lib\error.js:59:11)
 39 error     at handlePromise (D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\execa@5.0.0\node_modules\execa\index.js:114:26)
 39 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
