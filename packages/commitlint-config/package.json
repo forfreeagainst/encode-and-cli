@@ -1,6 +1,6 @@
 {
   "name": "yun-commitlint-config",
-  "version": "1.0.12",
+  "version": "1.0.10",
   "description": "Git 规范",
   "author": "尘少 <1982740368@qq.com>",
   "homepage": "https://github.com/forfreeagainst/encode-and-cli#readme",
@@ -29,5 +29,5 @@
   "dependencies": {
     "conventional-changelog-conventionalcommits": "^4.5.0"
   },
-  "gitHead": "01b7859aa75315d473f9f9d3c4b0e08310c50f62"
+  "gitHead": "9ab2e7a3c39fc686c4ad64e933fb82ce764ab20a"
 }
