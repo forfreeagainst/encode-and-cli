@@ -8,7 +8,9 @@
     "style",
     "lint"
   ],
-  "scripts": {},
+  "scripts": {
+    "test": "jest"
+  },
   "author": "durant",
   "homepage": "https://github.com/forfreeagainst/encode-and-cli#readme",
   "license": "ISC",
@@ -27,5 +29,6 @@
   },
   "bugs": {
     "url": "https://github.com/forfreeagainst/encode-and-cli/issues"
-  }
+  },
+  "gitHead": "44e11e532c6e20d2a3c3b8edd7f28679030a1dcc"
 }

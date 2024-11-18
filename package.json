@@ -1,5 +1,6 @@
 {
   "name": "encode-and-cli",
+  "version": "1.0.17",
   "private": true,
   "description": "一键接入，一键扫描，一键修复，一键升级",
   "scripts": {
