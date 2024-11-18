@@ -23,7 +23,7 @@
   "license": "ISC",
   "devDependencies": {
     "@commitlint/cli": "^17.6.1",
-    "husky": "^8.0.3",
+    "husky": "8.0.3",
     "lerna": "^6.6.2",
     "markdownlint": "^0.28.1",
     "pnpm": "^8.6.0",
