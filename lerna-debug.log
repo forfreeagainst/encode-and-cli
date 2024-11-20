@@ -7,12 +7,12 @@
 1 notice cli v6.6.2
 2 verbose rootPath D:\resume-git-repo\encode-and-cli
 3 verbose packageConfigs Package manager 'pnpm' detected. Resolving packages using 'pnpm-workspace.yaml'.
-4 verbose session 9caa79069eca9431
+4 verbose session 30f26437878cec68
 5 verbose user-agent lerna/6.6.2/node@v20.10.0+x64 (win32)
 6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '6.6.2' }
 7 verbose rootPath D:\resume-git-repo\encode-and-cli
 8 verbose packageConfigs Package manager 'pnpm' detected. Resolving packages using 'pnpm-workspace.yaml'.
-9 info current version 1.0.16
+9 info current version 1.0.17
 10 silly isAnythingCommitted
 11 verbose isAnythingCommitted 1
 12 silly getCurrentBranch
@@ -22,8 +22,8 @@
 16 silly isBehindUpstream sit is behind origin/sit by 0 commit(s) and ahead by 0
 17 silly hasTags
 18 verbose hasTags true
-19 silly git-describe.sync "v1.0.16-1-g8810ce4" => {"lastTagName":"v1.0.16","lastVersion":"v1.0.16","refCount":"1","sha":"8810ce4","isDirty":false}
-20 info Looking for changed packages since v1.0.16
+19 silly git-describe.sync "v1.0.17-1-g7b6b58f" => {"lastTagName":"v1.0.17","lastVersion":"v1.0.17","refCount":"1","sha":"7b6b58f","isDirty":false}
+20 info Looking for changed packages since v1.0.17
 21 silly checking diff packages/commitlint-config
 22 silly found diff in packages/commitlint-config/package.json
 23 verbose filtered diff [ 'packages/commitlint-config/package.json' ]
@@ -31,19 +31,27 @@
 25 silly found diff in packages/markdownlint-config/package.json
 26 verbose filtered diff [ 'packages/markdownlint-config/package.json' ]
 27 silly checking diff packages/stylelint-config
-28 silly found diff in packages/stylelint-config/README.md
-28 silly found diff in packages/stylelint-config/index.js
+28 silly found diff in packages/stylelint-config/__tests__/fixtures/css-module.scss
+28 silly found diff in packages/stylelint-config/__tests__/fixtures/essential.css
+28 silly found diff in packages/stylelint-config/__tests__/fixtures/index.css
+28 silly found diff in packages/stylelint-config/__tests__/fixtures/less-test.less
+28 silly found diff in packages/stylelint-config/__tests__/fixtures/sass-test.scss
+28 silly found diff in packages/stylelint-config/__tests__/rules-validate.test.js
 28 silly found diff in packages/stylelint-config/package.json
 29 verbose filtered diff [
-29 verbose filtered diff   'packages/stylelint-config/README.md',
-29 verbose filtered diff   'packages/stylelint-config/index.js',
+29 verbose filtered diff   'packages/stylelint-config/__tests__/fixtures/css-module.scss',
+29 verbose filtered diff   'packages/stylelint-config/__tests__/fixtures/essential.css',
+29 verbose filtered diff   'packages/stylelint-config/__tests__/fixtures/index.css',
+29 verbose filtered diff   'packages/stylelint-config/__tests__/fixtures/less-test.less',
+29 verbose filtered diff   'packages/stylelint-config/__tests__/fixtures/sass-test.scss',
+29 verbose filtered diff   'packages/stylelint-config/__tests__/rules-validate.test.js',
 29 verbose filtered diff   'packages/stylelint-config/package.json'
 29 verbose filtered diff ]
 30 verbose updated durant-commitlint-config
 31 verbose updated durant-markdownlint-config
 32 verbose updated durant-stylelint-config
-33 verbose git-describe undefined => "v1.0.16-1-g8810ce4"
-34 silly git-describe parsed => {"lastTagName":"v1.0.16","lastVersion":"v1.0.16","refCount":"1","sha":"8810ce4","isDirty":false}
+33 verbose git-describe undefined => "v1.0.17-1-g7b6b58f"
+34 silly git-describe parsed => {"lastTagName":"v1.0.17","lastVersion":"v1.0.17","refCount":"1","sha":"7b6b58f","isDirty":false}
 35 info execute Skipping releases
 36 silly lifecycle No script for "preversion" in "encode-and-cli", continuing
 37 silly lifecycle No script for "preversion" in "durant-commitlint-config", continuing
@@ -52,20 +60,20 @@
 40 verbose version durant-commitlint-config has no lockfile. Skipping lockfile update.
 41 verbose version durant-markdownlint-config has no lockfile. Skipping lockfile update.
 42 verbose version durant-stylelint-config has no lockfile. Skipping lockfile update.
-43 silly lifecycle No script for "version" in "durant-commitlint-config", continuing
+43 silly lifecycle No script for "version" in "durant-stylelint-config", continuing
 44 silly lifecycle No script for "version" in "durant-markdownlint-config", continuing
-45 silly lifecycle No script for "version" in "durant-stylelint-config", continuing
+45 silly lifecycle No script for "version" in "durant-commitlint-config", continuing
 46 silly lifecycle No script for "version" in "encode-and-cli", continuing
 47 silly gitAdd [
-47 silly gitAdd   'packages/commitlint-config/package.json',
-47 silly gitAdd   'packages/markdownlint-config/package.json',
 47 silly gitAdd   'packages/stylelint-config/package.json',
+47 silly gitAdd   'packages/markdownlint-config/package.json',
+47 silly gitAdd   'packages/commitlint-config/package.json',
 47 silly gitAdd   'lerna.json'
 47 silly gitAdd ]
-48 silly gitCommit chore(release): publish v1.0.17
-49 verbose git [ 'commit', '-m', 'chore(release): publish v1.0.17' ]
-50 silly gitTag v1.0.17 git tag %s -m %s
-51 verbose git [ 'tag', 'v1.0.17', '-m', 'v1.0.17' ]
+48 silly gitCommit chore(release): publish v1.0.18
+49 verbose git [ 'commit', '-m', 'chore(release): publish v1.0.18' ]
+50 silly gitTag v1.0.18 git tag %s -m %s
+51 verbose git [ 'tag', 'v1.0.18', '-m', 'v1.0.18' ]
 52 silly lifecycle No script for "postversion" in "durant-commitlint-config", continuing
 53 silly lifecycle No script for "postversion" in "durant-markdownlint-config", continuing
 54 silly lifecycle No script for "postversion" in "durant-stylelint-config", continuing
@@ -76,10 +84,10 @@
 59 notice Skipping all user and access validation due to third-party registry
 60 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
 61 silly getCurrentSHA
-62 verbose getCurrentSHA 44e11e532c6e20d2a3c3b8edd7f28679030a1dcc
+62 verbose getCurrentSHA 3c1ea63fa4e7b27e3ec818a43d290eec56f56fd8
 63 warn lifecycle Skipping root "prepublish" because it has already been called
 64 silly lifecycle "prepare" starting in "encode-and-cli"
-65 info lifecycle encode-and-cli@undefined~prepare: encode-and-cli@undefined
+65 info lifecycle encode-and-cli@1.0.17~prepare: encode-and-cli@1.0.17
 66 silly lifecycle "prepare" finished in "encode-and-cli"
 67 silly lifecycle No script for "prepublishOnly" in "encode-and-cli", continuing
 68 silly lifecycle No script for "prepack" in "encode-and-cli", continuing
@@ -93,85 +101,65 @@
 76 silly lifecycle No script for "prepare" in "durant-markdownlint-config", continuing
 77 silly lifecycle No script for "prepare" in "durant-stylelint-config", continuing
 78 silly lifecycle No script for "prepublishOnly" in "durant-commitlint-config", continuing
-79 silly lifecycle No script for "prepublishOnly" in "durant-stylelint-config", continuing
-80 silly lifecycle No script for "prepublishOnly" in "durant-markdownlint-config", continuing
+79 silly lifecycle No script for "prepublishOnly" in "durant-markdownlint-config", continuing
+80 silly lifecycle No script for "prepublishOnly" in "durant-stylelint-config", continuing
 81 silly lifecycle No script for "prepack" in "durant-commitlint-config", continuing
 82 silly lifecycle No script for "prepack" in "durant-markdownlint-config", continuing
 83 silly lifecycle No script for "prepack" in "durant-stylelint-config", continuing
-84 silly lifecycle No script for "postpack" in "durant-commitlint-config", continuing
-85 verbose packed packages\commitlint-config
-86 silly lifecycle No script for "postpack" in "durant-stylelint-config", continuing
-87 verbose packed packages\stylelint-config
-88 silly lifecycle No script for "postpack" in "durant-markdownlint-config", continuing
-89 verbose packed packages\markdownlint-config
+84 silly lifecycle No script for "postpack" in "durant-stylelint-config", continuing
+85 verbose packed packages\stylelint-config
+86 silly lifecycle No script for "postpack" in "durant-markdownlint-config", continuing
+87 verbose packed packages\markdownlint-config
+88 silly lifecycle No script for "postpack" in "durant-commitlint-config", continuing
+89 verbose packed packages\commitlint-config
 90 silly lifecycle No script for "postpack" in "encode-and-cli", continuing
 91 verbose publish durant-commitlint-config
 92 verbose publish durant-markdownlint-config
 93 verbose publish durant-stylelint-config
-94 silly lifecycle No script for "publish" in "durant-commitlint-config", continuing
-95 silly lifecycle No script for "postpublish" in "durant-commitlint-config", continuing
-96 success published durant-commitlint-config 1.0.17
+94 silly lifecycle No script for "publish" in "durant-markdownlint-config", continuing
+95 silly lifecycle No script for "postpublish" in "durant-markdownlint-config", continuing
+96 success published durant-markdownlint-config 1.0.18
 97 notice
-98 notice package: durant-commitlint-config@1.0.17
+98 notice package: durant-markdownlint-config@1.0.18
 99 notice === Tarball Contents ===
 100 notice 1.1kB LICENSE
-100 notice 678B  index.js
-100 notice 629B  package.json
-100 notice 0B    README.md
+100 notice 2.0kB index.json
+100 notice 682B  package.json
+100 notice 52B   README.md
 101 notice === Tarball Details ===
-102 notice name:          durant-commitlint-config
-102 notice version:       1.0.17
-102 notice filename:      durant-commitlint-config-1.0.17.tgz
-102 notice package size:  1.4 kB
-102 notice unpacked size: 2.4 kB
-102 notice shasum:        aa8cf51eb5a3dd4dc5fc708bc76df6ce3a2dd3da
-102 notice integrity:     sha512-qkBfe09iOP928[...]czIeIKHUThlGg==
+102 notice name:          durant-markdownlint-config
+102 notice version:       1.0.18
+102 notice filename:      durant-markdownlint-config-1.0.18.tgz
+102 notice package size:  1.9 kB
+102 notice unpacked size: 3.9 kB
+102 notice shasum:        ed19cb34becc15737ce578c3886f282d00a9cbd7
+102 notice integrity:     sha512-otnRz+mG9HLRM[...]fo8LXZH6pMSoQ==
 102 notice total files:   4
 103 notice
-104 silly lifecycle No script for "publish" in "durant-stylelint-config", continuing
-105 silly lifecycle No script for "postpublish" in "durant-stylelint-config", continuing
-106 success published durant-stylelint-config 1.0.17
-107 notice
-108 notice package: durant-stylelint-config@1.0.17
-109 notice === Tarball Contents ===
-110 notice 1.1kB LICENSE
-110 notice 2.8kB index.js
-110 notice 760B  package.json
-110 notice 13B   README.md
-111 notice === Tarball Details ===
-112 notice name:          durant-stylelint-config
-112 notice version:       1.0.17
-112 notice filename:      durant-stylelint-config-1.0.17.tgz
-112 notice package size:  2.2 kB
-112 notice unpacked size: 4.7 kB
-112 notice shasum:        1737fb9cdce005228d9912b47d26ca6e470549d6
-112 notice integrity:     sha512-9a+Dex84rhxUb[...]MLbD6gHmvwMGw==
-112 notice total files:   4
-113 notice
-114 silly FetchError: request to https://registry.npmjs.org/durant-markdownlint-config failed, reason: read ECONNRESET
-114 silly     at ClientRequest.<anonymous> (D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
-114 silly     at ClientRequest.emit (node:events:514:28)
-114 silly     at TLSSocket.socketErrorListener (node:_http_client:495:9)
-114 silly     at TLSSocket.emit (node:events:526:35)
-114 silly     at emitErrorNT (node:internal/streams/destroy:151:8)
-114 silly     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
-114 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-114 silly  FetchError: request to https://registry.npmjs.org/durant-markdownlint-config failed, reason: read ECONNRESET
-114 silly     at ClientRequest.<anonymous> (D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
-114 silly     at ClientRequest.emit (node:events:514:28)
-114 silly     at TLSSocket.socketErrorListener (node:_http_client:495:9)
-114 silly     at TLSSocket.emit (node:events:526:35)
-114 silly     at emitErrorNT (node:internal/streams/destroy:151:8)
-114 silly     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
-114 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
-114 silly   code: 'ECONNRESET',
-114 silly   errno: 'ECONNRESET',
-114 silly   syscall: 'read',
-114 silly   type: 'system'
-114 silly }
-115 error ECONNRESET request to https://registry.npmjs.org/durant-markdownlint-config failed, reason: read ECONNRESET
-116 error TypeError [ERR_INVALID_ARG_TYPE]: The "code" argument must be of type number. Received type string ('ECONNRESET')
-116 error     at process.set [as exitCode] (node:internal/bootstrap/node:123:9)
-116 error     at D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\lerna@6.6.2\node_modules\lerna\dist\cli.js:7944:34
-116 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-116 error     at async D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\p-pipe@3.1.0\node_modules\p-pipe\index.js:13:19
+104 silly FetchError: request to https://registry.npmjs.org/durant-stylelint-config failed, reason: read ECONNRESET
+104 silly     at ClientRequest.<anonymous> (D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
+104 silly     at ClientRequest.emit (node:events:514:28)
+104 silly     at TLSSocket.socketErrorListener (node:_http_client:495:9)
+104 silly     at TLSSocket.emit (node:events:526:35)
+104 silly     at emitErrorNT (node:internal/streams/destroy:151:8)
+104 silly     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+104 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+104 silly  FetchError: request to https://registry.npmjs.org/durant-stylelint-config failed, reason: read ECONNRESET
+104 silly     at ClientRequest.<anonymous> (D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
+104 silly     at ClientRequest.emit (node:events:514:28)
+104 silly     at TLSSocket.socketErrorListener (node:_http_client:495:9)
+104 silly     at TLSSocket.emit (node:events:526:35)
+104 silly     at emitErrorNT (node:internal/streams/destroy:151:8)
+104 silly     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+104 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+104 silly   code: 'ECONNRESET',
+104 silly   errno: 'ECONNRESET',
+104 silly   syscall: 'read',
+104 silly   type: 'system'
+104 silly }
+105 error ECONNRESET request to https://registry.npmjs.org/durant-stylelint-config failed, reason: read ECONNRESET
+106 error TypeError [ERR_INVALID_ARG_TYPE]: The "code" argument must be of type number. Received type string ('ECONNRESET')
+106 error     at process.set [as exitCode] (node:internal/bootstrap/node:123:9)
+106 error     at D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\lerna@6.6.2\node_modules\lerna\dist\cli.js:7944:34
+106 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+106 error     at async D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\p-pipe@3.1.0\node_modules\p-pipe\index.js:13:19
