@@ -1,0 +1,21 @@
+{
+  "name": "luofeng-markdownlint-config",
+  "version": "1.2.20",
+  "main": "index.json",
+  "description": "用于规范md文件书写",
+  "keywords": [
+    "luofeng",
+    "markdown",
+    "lint"
+  ],
+  "author": "尘少 <1982740368@qq.com>",
+  "homepage": "https://github.com/forfreeagainst/encode-and-cli#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forfreeagainst/encode-and-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/forfreeagainst/encode-and-cli/issues"
+  }
+}
