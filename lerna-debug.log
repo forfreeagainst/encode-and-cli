@@ -1,0 +1,125 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '6.6.2',
+0 silly argv   '$0': 'node_modules\\lerna\\dist\\cli.js'
+0 silly argv }
+1 notice cli v6.6.2
+2 verbose rootPath D:\resume-git-repo\encode-and-cli
+3 verbose packageConfigs Package manager 'pnpm' detected. Resolving packages using 'pnpm-workspace.yaml'.
+4 verbose session cbb7080172ff595e
+5 verbose user-agent lerna/6.6.2/node@v20.10.0+x64 (win32)
+6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '6.6.2' }
+7 verbose rootPath D:\resume-git-repo\encode-and-cli
+8 verbose packageConfigs Package manager 'pnpm' detected. Resolving packages using 'pnpm-workspace.yaml'.
+9 info current version 1.2.20
+10 silly isAnythingCommitted
+11 verbose isAnythingCommitted 1
+12 silly getCurrentBranch
+13 verbose currentBranch uat
+14 silly remoteBranchExists
+15 silly isBehindUpstream
+16 silly isBehindUpstream uat is behind origin/uat by 0 commit(s) and ahead by 0
+17 silly hasTags
+18 verbose hasTags true
+19 silly git-describe.sync "36ac4f8" => {"refCount":"4","sha":"36ac4f8","isDirty":false}
+20 info Assuming all packages changed
+21 verbose updated luofeng-commitlint-config
+22 verbose updated luofeng-markdownlint-config
+23 verbose updated luofeng-stylelint-config
+24 verbose git-describe undefined => "36ac4f8"
+25 silly git-describe parsed => {"refCount":"4","sha":"36ac4f8","isDirty":false}
+26 info execute Skipping releases
+27 silly lifecycle No script for "preversion" in "encode-and-cli", continuing
+28 silly lifecycle No script for "preversion" in "luofeng-commitlint-config", continuing
+29 silly lifecycle No script for "preversion" in "luofeng-markdownlint-config", continuing
+30 silly lifecycle No script for "preversion" in "luofeng-stylelint-config", continuing
+31 verbose version luofeng-commitlint-config has no lockfile. Skipping lockfile update.
+32 verbose version luofeng-markdownlint-config has no lockfile. Skipping lockfile update.
+33 verbose version luofeng-stylelint-config has no lockfile. Skipping lockfile update.
+34 silly lifecycle No script for "version" in "luofeng-stylelint-config", continuing
+35 silly lifecycle No script for "version" in "luofeng-markdownlint-config", continuing
+36 silly lifecycle No script for "version" in "luofeng-commitlint-config", continuing
+37 silly lifecycle No script for "version" in "encode-and-cli", continuing
+38 silly gitAdd [
+38 silly gitAdd   'packages/stylelint-config/package.json',
+38 silly gitAdd   'packages/markdownlint-config/package.json',
+38 silly gitAdd   'packages/commitlint-config/package.json',
+38 silly gitAdd   'lerna.json'
+38 silly gitAdd ]
+39 silly gitCommit chore(release): publish v1.2.21
+40 verbose git [ 'commit', '-m', 'chore(release): publish v1.2.21' ]
+41 silly gitTag v1.2.21 git tag %s -m %s
+42 verbose git [ 'tag', 'v1.2.21', '-m', 'v1.2.21' ]
+43 silly lifecycle No script for "postversion" in "luofeng-commitlint-config", continuing
+44 silly lifecycle No script for "postversion" in "luofeng-markdownlint-config", continuing
+45 silly lifecycle No script for "postversion" in "luofeng-stylelint-config", continuing
+46 silly lifecycle No script for "postversion" in "encode-and-cli", continuing
+47 info git Pushing tags...
+48 silly gitPush origin uat
+49 info publish Publishing packages to npm...
+50 notice Skipping all user and access validation due to third-party registry
+51 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
+52 warn ENOLICENSE Packages luofeng-commitlint-config, luofeng-markdownlint-config, and luofeng-stylelint-config are missing a license.
+52 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+52 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+53 silly getCurrentSHA
+54 verbose getCurrentSHA efbac221df2dd747a55b6ad262d74e1d676f4a13
+55 warn lifecycle Skipping root "prepublish" because it has already been called
+56 silly lifecycle "prepare" starting in "encode-and-cli"
+57 info lifecycle encode-and-cli@undefined~prepare: encode-and-cli@undefined
+58 silly lifecycle "prepare" finished in "encode-and-cli"
+59 silly lifecycle No script for "prepublishOnly" in "encode-and-cli", continuing
+60 silly lifecycle No script for "prepack" in "encode-and-cli", continuing
+61 verbose pack-directory packages\commitlint-config
+62 verbose pack-directory packages\markdownlint-config
+63 verbose pack-directory packages\stylelint-config
+64 silly lifecycle No script for "prepublish" in "luofeng-commitlint-config", continuing
+65 silly lifecycle No script for "prepublish" in "luofeng-markdownlint-config", continuing
+66 silly lifecycle No script for "prepublish" in "luofeng-stylelint-config", continuing
+67 silly lifecycle No script for "prepare" in "luofeng-commitlint-config", continuing
+68 silly lifecycle No script for "prepare" in "luofeng-markdownlint-config", continuing
+69 silly lifecycle No script for "prepare" in "luofeng-stylelint-config", continuing
+70 silly lifecycle No script for "prepublishOnly" in "luofeng-commitlint-config", continuing
+71 silly lifecycle No script for "prepublishOnly" in "luofeng-markdownlint-config", continuing
+72 silly lifecycle No script for "prepublishOnly" in "luofeng-stylelint-config", continuing
+73 silly lifecycle No script for "prepack" in "luofeng-commitlint-config", continuing
+74 silly lifecycle No script for "prepack" in "luofeng-markdownlint-config", continuing
+75 silly lifecycle No script for "prepack" in "luofeng-stylelint-config", continuing
+76 silly lifecycle No script for "postpack" in "luofeng-markdownlint-config", continuing
+77 verbose packed packages\markdownlint-config
+78 silly lifecycle No script for "postpack" in "luofeng-commitlint-config", continuing
+79 verbose packed packages\commitlint-config
+80 silly lifecycle No script for "postpack" in "luofeng-stylelint-config", continuing
+81 verbose packed packages\stylelint-config
+82 silly lifecycle No script for "postpack" in "encode-and-cli", continuing
+83 verbose publish luofeng-commitlint-config
+84 verbose publish luofeng-markdownlint-config
+85 verbose publish luofeng-stylelint-config
+86 silly FetchError: request to https://registry.npmjs.org/luofeng-commitlint-config failed, reason: read ECONNRESET
+86 silly     at ClientRequest.<anonymous> (D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
+86 silly     at ClientRequest.emit (node:events:514:28)
+86 silly     at TLSSocket.socketErrorListener (node:_http_client:495:9)
+86 silly     at TLSSocket.emit (node:events:526:35)
+86 silly     at emitErrorNT (node:internal/streams/destroy:151:8)
+86 silly     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+86 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+86 silly  FetchError: request to https://registry.npmjs.org/luofeng-commitlint-config failed, reason: read ECONNRESET
+86 silly     at ClientRequest.<anonymous> (D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
+86 silly     at ClientRequest.emit (node:events:514:28)
+86 silly     at TLSSocket.socketErrorListener (node:_http_client:495:9)
+86 silly     at TLSSocket.emit (node:events:526:35)
+86 silly     at emitErrorNT (node:internal/streams/destroy:151:8)
+86 silly     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+86 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+86 silly   code: 'ECONNRESET',
+86 silly   errno: 'ECONNRESET',
+86 silly   syscall: 'read',
+86 silly   type: 'system'
+86 silly }
+87 error ECONNRESET request to https://registry.npmjs.org/luofeng-commitlint-config failed, reason: read ECONNRESET
+88 error TypeError [ERR_INVALID_ARG_TYPE]: The "code" argument must be of type number. Received type string ('ECONNRESET')
+88 error     at process.set [as exitCode] (node:internal/bootstrap/node:123:9)
+88 error     at D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\lerna@6.6.2\node_modules\lerna\dist\cli.js:7944:34
+88 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+88 error     at async D:\resume-git-repo\encode-and-cli\node_modules\.pnpm\p-pipe@3.1.0\node_modules\p-pipe\index.js:12:19
