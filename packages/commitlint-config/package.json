@@ -1,6 +1,6 @@
 {
   "name": "luofeng-commitlint-config",
-  "version": "1.2.20",
+  "version": "1.2.21",
   "main": "index.js",
   "description": "git的commit信息的校验",
   "keywords": [

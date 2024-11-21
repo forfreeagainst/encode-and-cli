@@ -1,6 +1,6 @@
 {
   "name": "luofeng-markdownlint-config",
-  "version": "1.2.20",
+  "version": "1.2.21",
   "main": "index.json",
   "description": "用于规范md文件书写",
   "keywords": [
