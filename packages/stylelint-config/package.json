@@ -1,0 +1,31 @@
+{
+  "name": "luofeng-stylelint-config",
+  "version": "1.2.20",
+  "description": "用于规范css样式书写",
+  "keywords": [
+    "luofeng",
+    "lint"
+  ],
+  "author": "尘少 <1982740368@qq.com>",
+  "homepage": "https://github.com/forfreeagainst/encode-and-cli#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forfreeagainst/encode-and-cli.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "bugs": {
+    "url": "https://github.com/forfreeagainst/encode-and-cli/issues"
+  },
+  "devDependencies": {
+    "jest": "29.5.0",
+    "stylelint": "14.3.0",
+    "stylelint-scss": "4.1.0"
+  }
+}

@@ -24,6 +24,7 @@
       "Less",
       "Sass",
       "SCSS",
+      "scss",
       "HTTP",
       "HTTPS",
       "WebSocket",
@@ -104,7 +105,8 @@
       "URI",
       "URLs",
       "URIs",
-      "Visual Studio Code"
+      "Visual Studio Code",
+      "json"
     ],
     "code_blocks": false
   }

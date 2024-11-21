@@ -22,7 +22,6 @@
   "author": "durant123",
   "license": "ISC",
   "devDependencies": {
-    "rimraf": "3.0.2",
     "pnpm": "8.6.0",
     "lerna": "6.6.2",
     "@commitlint/cli": "17.6.1",
