@@ -5,4 +5,4 @@
 ## publish常见问题
 
 1. ECONNRESET
-代理问题，防火墙问题
+代理问题，防火墙问题,pnpm版本问题（立竿见影），packjson.json依赖版本问题
