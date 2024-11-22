@@ -2,7 +2,7 @@
   "name": "luofeng-eslint-config",
   "version": "1.2.24",
   "main": "index.js",
-  "description": "eslint校验",
+  "description": "eslint校验,支持vue,node,react",
   "keywords": [
     "luofeng",
     "eslint"
