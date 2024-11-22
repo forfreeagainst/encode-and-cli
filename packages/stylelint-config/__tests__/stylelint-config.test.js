@@ -4,7 +4,7 @@ const path = require('path');
 
 describe('测试一组css文件', () => {
   it('测试错误css', async () => {
-    const filePaths = [path.join(__dirname, '../fixtures/error.css')];
+    const filePaths = [path.join(__dirname, '../fixtures/right.css')];
     const result = await stylelint.lint({
       configFile: path.join(__dirname, '../index.js'),
       files: filePaths,
