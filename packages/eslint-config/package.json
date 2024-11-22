@@ -1,6 +1,6 @@
 {
   "name": "luofeng-eslint-config",
-  "version": "1.2.25",
+  "version": "1.2.26",
   "main": "index.js",
   "description": "eslint校验",
   "keywords": [
