@@ -2,7 +2,7 @@
   "name": "luofeng-eslint-config",
   "version": "1.2.25",
   "main": "index.js",
-  "description": "eslint校验,支持vue,node,react",
+  "description": "eslint校验",
   "keywords": [
     "luofeng",
     "eslint"
@@ -41,5 +41,6 @@
     "mocha": "^8.2.1",
     "typescript": "^4.1.2",
     "vue-eslint-parser": "^7.3.0"
-  }
+  },
+  "gitHead": "466a6895282303bba11630391ef42e4fec45ad08"
 }
