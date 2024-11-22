@@ -1,0 +1,25 @@
+{
+  "name": "luofeng-eslint-config",
+  "version": "1.2.22",
+  "main": "index.js",
+  "description": "eslint校验",
+  "keywords": [
+    "luofeng",
+    "eslint"
+  ],
+  "author": "尘少 <1982740368@qq.com>",
+  "homepage": "https://github.com/forfreeagainst/encode-and-cli#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forfreeagainst/encode-and-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/forfreeagainst/encode-and-cli/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/eslint-parser": "^7.16.3",
+    "eslint": "^8.7.0"
+  }
+}
