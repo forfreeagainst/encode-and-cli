@@ -1,6 +1,6 @@
 {
   "name": "zhrx-lint-cli",
-  "version": "1.2.27",
+  "version": "1.2.28",
   "description": "zhrx的前端编码规范工程化（自定义脚手架）",
   "bin": "./lib/cli.js",
   "main": "./lib/index.js",
