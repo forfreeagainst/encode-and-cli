@@ -22,7 +22,7 @@
   "author": "durant123",
   "license": "ISC",
   "devDependencies": {
-    "pnpm": "9.14.2",
+    "pnpm": "^9.14.2",
     "lerna": "6.6.2",
     "@commitlint/cli": "17.6.1",
     "husky": "8.0.3",
